@@ -1,4 +1,4 @@
-// C Program to sort an array in ascending order using Insertion Sort.          © Ishav Verma 19/March/2021
+// C Program to sort an array in ascending order using Insertion Sort.         
 #include <stdio.h>
 int main()
 {

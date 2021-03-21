@@ -1,3 +1,4 @@
+//A C Program to calculate factorial of a number. 
 #include <stdio.h>
 int main() {
     int n, i;

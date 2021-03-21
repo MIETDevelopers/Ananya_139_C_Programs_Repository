@@ -6,9 +6,9 @@
 int main()
 {
     int num, i, count=0;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    for(i=2; i<num; i++)
+    printf("Enter a number: ");     //print the number entered
+    scanf("%d", &num);      //scan the number given by the user.
+    for(i=2; i<num; i++)        //for loop function
     {
         if(num%i == 0)
         {
@@ -16,7 +16,7 @@ int main()
             break;
         }
     }
-    if(count==0)
+    if(count==0)            //this will give the respective output.
         printf("\nIt's a prime number");
     else
         printf("\nIt's not a prime number");

@@ -1,14 +1,17 @@
+//A C Program to check whether the alphabet is vowel or consonant.
+//vowels: a, e, i, o, u
+//consonants: remaining all except vowels.
 #include <stdio.h>
 
 int main()
 {
     char ch;
 
-    /* Input an alphabet from user */
+    // Input an alphabet from user 
     printf("Enter any alphabet: ");
-    scanf("%c", &ch);
+    scanf("%c", &ch);   //scan the alphabet entered by the user.
 
-    /* Switch value of ch */
+    // Switch value of character(ch)
     switch(ch)
     {
         case 'a': 

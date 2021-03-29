@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(void) {
-  char name[] = "Ishav Verma";
+  char name[] = "Ananya Gupta";
 
   printf("%c \n", *name);     	// Output will be I
   printf("%c \n", *(name+3));	// Output will be A
